@@ -10,6 +10,10 @@
     font-size: 1rem;
   }
 
+  header img {
+    width: 100%;
+  }
+
   .intro h2 {
     font-size: 1.4rem;
   }
