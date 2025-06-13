@@ -1,0 +1,115 @@
+/* Responsividade tipográfica */
+
+/* Celulares (até 480px) */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .intro h2 {
+    font-size: 1.4rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .highlight h3 {
+    font-size: 1.1rem;
+  }
+
+  .highlight p {
+    font-size: 0.95rem;
+  }
+
+  .cta h2 {
+    font-size: 1.6rem;
+  }
+
+  .cta a {
+    font-size: 1rem;
+    padding: 12px 30px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+/* Tablets (481px até 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  .intro h2 {
+    font-size: 1.8rem;
+  }
+
+  .intro p {
+    font-size: 1.05rem;
+  }
+
+  .highlight h3 {
+    font-size: 1.2rem;
+  }
+
+  .highlight p {
+    font-size: 1rem;
+  }
+
+  .cta h2 {
+    font-size: 2rem;
+  }
+
+  .cta a {
+    font-size: 1.1rem;
+  }
+}
+
+/* Desktop (acima de 768px) */
+@media (min-width: 769px) {
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header p {
+    font-size: 1.4rem;
+  }
+
+  .intro h2 {
+    font-size: 2.2rem;
+  }
+
+  .intro p {
+    font-size: 1.1rem;
+  }
+
+  .highlight h3 {
+    font-size: 1.3rem;
+  }
+
+  .highlight p {
+    font-size: 1rem;
+  }
+
+  .cta h2 {
+    font-size: 2.5rem;
+  }
+
+  .cta a {
+    font-size: 1.2rem;
+  }
+}
